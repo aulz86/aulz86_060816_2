@@ -1,0 +1,221 @@
+<?xml version="1.0"  encoding="UTF-8"?>
+<BadboyDocument>
+  <Variable name="VIEWSTATE"><![CDATA[]]></Variable>
+  <Variable name="jsessionid"><![CDATA[]]></Variable>
+  <Script>
+
+  <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+      <ChildItems>
+      <SuiteItem>
+        <Id>4</Id>
+        <ItemName>Test Suite 1</ItemName>
+      <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+          <ChildItems>
+          <TestItem>
+            <Id>3</Id>
+            <ItemName></ItemName>
+          <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+              <ChildItems>
+              <Step>
+                <Id>2</Id>
+                <ItemName></ItemName>
+                <Name>Step 1</Name>
+                <Repetitions>1</Repetitions>
+              <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+                  <ChildItems>
+                  <Request>
+                    <Id>61</Id>
+                    <ItemName></ItemName>
+                    <Protocol>http</Protocol>
+                    <Path>/index.php</Path>
+                    <Label></Label>
+                    <Method>POST</Method>
+                    <Host>automationpractice.com</Host>
+                    <Mode>window</Mode>
+                    <Port>80</Port>
+                    <Header name='Referer'>http://automationpractice.com/index.php?controller=contact</Header>
+                    <Header name='Content-Type'>multipart/form-data; boundary=---------------------------7e02fc51905a6</Header>
+                  <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+                      <ChildItems>
+                      <ResponsesItem>
+                        <Id>71</Id>
+                      <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+                          <ChildItems>
+                          <Response>
+                            <Id>70</Id>
+                            <TimeStamp>18:47 06 Aug 2016</TimeStamp>
+                            <ErrorFlag>-1</ErrorFlag>
+                            <ErrorCode>500</ErrorCode>
+                            <Size>2502</Size>
+                            <TotalSize>28726</TotalSize>
+                            <Content>&amp;#x0xef;&amp;#x0xbb;&amp;#x0xbf;&lt;!DOCTYPE HTML&gt;
+                            &lt;!DOCTYPE html PUBLIC &quot;&quot; &quot;&quot;&gt;&lt;HTML lang=&quot;en&quot;&gt;&lt;HEAD&gt;&lt;META content=&quot;IE=11.0000&quot; 
+                            http-equiv=&quot;X-UA-Compatible&quot;&gt;
+                            		 
+                            &lt;META http-equiv=&quot;Content-Type&quot; content=&quot;text/html; charset=utf-8&quot;&gt;		 
+                            &lt;META name=&quot;description&quot; content=&quot;This store is powered by PrestaShop&quot;&gt;         
+                            &lt;STYLE&gt;
+                                        ::-moz-selection {
+                                            background: #b3d4fc;
+                                            text-shadow: none;
+                                        }
+                            
+                                        ::selection {
+                                            background: #b3d4fc;
+                                            text-shadow: none;
+                                        }
+                            
+                                        html {
+                                            padding: 30px 10px;
+                                            font-size: 16px;
+                                            line-height: 1.4;
+                                            color: #737373;
+                                            background: #f0f0f0;
+                                            -webkit-text-size-adjust: 100%;
+                                            -ms-text-size-adjust: 100%;
+                                        }
+                            
+                                        html,
+                                        input {
+                                            font-family: &quot;Helvetica Neue&quot;, Helvetica, Arial, sans-serif;
+                                        }
+                            
+                                        body {
+                                            max-width:600px;
+                                            _width: 600px;
+                                            padding: 30px 20px 50px;
+                                            border: 1px solid #b3b3b3;
+                                            border-radius: 4px;
+                                            margin: 0 auto;
+                                            box-shadow: 0 1px 10px #a7a7a7, inset 0 1px 0 #fff;
+                                            background: #fcfcfc;
+                                        }
+                            
+                                        h1 {
+                                            margin: 0 10px;
+                                            font-size: 50px;
+                                            text-align: center;
+                                        }
+                            
+                                        h1 span {
+                                            color: #bbb;
+                                        }
+                                        h2 {
+                                            color: #D35780;
+                                            margin: 0 10px;
+                                            font-size: 40px;
+                                            text-align: center;
+                                        }
+                            
+                                        h2 span {
+                                            color: #bbb;
+                                            font-size: 60px;
+                                        }
+                            
+                                        h3 {
+                                            margin: 1.5em 0 0.5em;
+                                        }
+                            
+                                        p {
+                                            margin: 1em 0;
+                                        }
+                            
+                                        ul {
+                                            padding: 0 0 0 40px;
+                                            margin: 1em 0;
+                                        }
+                            
+                                        .container {
+                                            max-width: 380px;
+                                            _width: 380px;
+                                            margin: 0 auto;
+                                        }
+                            
+                                        input::-moz-focus-inner {
+                                            padding: 0;
+                                            border: 0;
+                                        }
+                                    &lt;/STYLE&gt;
+                                 &lt;/HEAD&gt;     
+                            &lt;BODY&gt;
+                            &lt;DIV class=&quot;container&quot;&gt;
+                            &lt;H2&gt;&lt;SPAN&gt;500&lt;/SPAN&gt; Server Error&lt;/H2&gt;
+                            &lt;P&gt;Oops, something went wrong.&lt;BR&gt;&lt;BR&gt;Try to refresh this page or feel free to 
+                            contact us if the problem persists.&lt;/P&gt;&lt;/DIV&gt;&lt;/BODY&gt;&lt;/HTML&gt;
+                            </Content>
+                            <LogSection></LogSection>
+                          <summary><played>1</played><succeeded>0</succeeded><failed>1</failed><assertions>0</assertions><averageResponseTime>20745</averageResponseTime><maxResponseTime>20745</maxResponseTime><warnings>0</warnings><timeouts>0</timeouts><reviews>0</reviews></summary>
+                            </Response>
+                        </ChildItems>
+                      </ResponsesItem>
+                      <FormPartItem>
+                        <Id>63</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;id_contact&quot;</Headers>
+                        <Content><![CDATA[1]]></Content>
+                        <Name>id_contact</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>64</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;from&quot;</Headers>
+                        <Content><![CDATA[aulia.siahaan@yahoo.co.id]]></Content>
+                        <Name>from</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>65</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;id_order&quot;</Headers>
+                        <Content><![CDATA[99977723234211]]></Content>
+                        <Name>id_order</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>66</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;MAX_FILE_SIZE&quot;</Headers>
+                        <Content><![CDATA[2000000]]></Content>
+                        <Name>MAX_FILE_SIZE</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>67</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;fileUpload&quot;; filename=&quot;D:\Data - Aulia\putu\20140911_172608.jpg&quot;
+                        Content-Type: image/jpeg</Headers>
+                        <Content><![CDATA[ÿØÿà]]></Content>
+                        <Name>fileUpload</Name>
+                        <FileUpload>1</FileUpload>
+                        <FileName>D:\Data - Aulia\putu\20140911_172608.jpg</FileName>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>68</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;message&quot;</Headers>
+                        <Content><![CDATA[test test test test test]]></Content>
+                        <Name>message</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <FormPartItem>
+                        <Id>69</Id>
+                        <Headers>Content-Disposition: form-data; name=&quot;submitMessage&quot;</Headers>
+                        <Content><![CDATA[]]></Content>
+                        <Name>submitMessage</Name>
+                        <FileUpload>0</FileUpload>
+                      </FormPartItem>
+                      <Parameter>
+                        <Id>62</Id>
+                        <Name>controller</Name>
+                        <Value>contact</Value>
+                        <sendEquals>-1</sendEquals>
+                        <EncodedName>controller</EncodedName>
+                        <EncodedValue>contact</EncodedValue>
+                      </Parameter>
+                    </ChildItems>
+                  </Request>
+                </ChildItems>
+              </Step>
+            </ChildItems>
+          </TestItem>
+        </ChildItems>
+      </SuiteItem>
+    </ChildItems>
+  </Script>
+
+</BadboyDocument>
